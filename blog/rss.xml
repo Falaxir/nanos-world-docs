@@ -4,9 +4,16 @@
         <title>nanos world Blog</title>
         <link>https://docs.nanos.world/blog</link>
         <description>nanos world Blog</description>
-        <lastBuildDate>Fri, 18 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Reworked Docs]]></title>
+            <link>https://docs.nanos.world/blog/new-docs</link>
+            <guid>new-docs</guid>
+            <pubDate>Fri, 27 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[In advance of our next update, we proudly present our new docs!]]></description>
+        </item>
         <item>
             <title><![CDATA[Sandbox Update]]></title>
             <link>https://docs.nanos.world/blog/sandbox</link>
