@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_docusaurus=self.webpackChunkdocs_docusaurus||[]).push([[29],{71182:function(s){s.exports=JSON.parse('{"permalink":"/pt-BR/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":6,"previousPage":null,"nextPage":null,"blogDescription":"All official news from nanos world!","blogTitle":"nanos world news!"}')}}]);
