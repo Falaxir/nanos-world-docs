@@ -8,11 +8,11 @@
     <subtitle>nanos world Blog</subtitle>
     <icon>https://docs.nanos.world/pt-BR/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Reworked Docs]]></title>
+        <title type="html"><![CDATA[Nova Docs]]></title>
         <id>new-docs</id>
         <link href="https://docs.nanos.world/pt-BR/blog/new-docs"/>
         <updated>2021-08-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Some time ago, we released our brand new docs version written in Markdown! It was using GitBook services and hosting, the jump was big from the previous version written in Sphinx.]]></summary>
+        <summary type="html"><![CDATA[Há algum tempo atrás, nós lançamos nossa nova versão da docs, escrita em Markdown! Estávamos usando os serviços do Gitbook para criar e hospedar, tivemos um grande salto da antiga versão, escrita com Sphinx.]]></summary>
         <author>
             <name>Gabriel T. Nardy</name>
             <uri>https://twitter.com/gtnardy</uri>

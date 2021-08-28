@@ -8,11 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Reworked Docs]]></title>
+            <title><![CDATA[Nova Docs]]></title>
             <link>https://docs.nanos.world/pt-BR/blog/new-docs</link>
             <guid>new-docs</guid>
             <pubDate>Fri, 27 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Some time ago, we released our brand new docs version written in Markdown! It was using GitBook services and hosting, the jump was big from the previous version written in Sphinx.]]></description>
+            <description><![CDATA[Há algum tempo atrás, nós lançamos nossa nova versão da docs, escrita em Markdown! Estávamos usando os serviços do Gitbook para criar e hospedar, tivemos um grande salto da antiga versão, escrita com Sphinx.]]></description>
         </item>
         <item>
             <title><![CDATA[Sandbox Update]]></title>
