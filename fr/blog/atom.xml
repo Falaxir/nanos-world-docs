@@ -8,18 +8,18 @@
     <subtitle>nanos world Blog</subtitle>
     <icon>https://docs.nanos.world/fr/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Reworked Docs]]></title>
+        <title type="html"><![CDATA[Documentation retravaillée]]></title>
         <id>new-docs</id>
         <link href="https://docs.nanos.world/fr/blog/new-docs"/>
         <updated>2021-08-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Some time ago, we released our brand new docs version written in Markdown! It was using GitBook services and hosting, the jump was big from the previous version written in Sphinx.]]></summary>
+        <summary type="html"><![CDATA[Il y a quelque temps, nous avons sorti notre toute nouvelle version de la documentation écrite en Markdown ! Il utilisait les services GitBook dont son hébergement, le saut était grand depuis la version précédente écrite en Sphinx.]]></summary>
         <author>
             <name>Gabriel T. Nardy</name>
             <uri>https://twitter.com/gtnardy</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Sandbox Update]]></title>
+        <title type="html"><![CDATA[Mise à jour du Sandbox]]></title>
         <id>sandbox</id>
         <link href="https://docs.nanos.world/fr/blog/sandbox"/>
         <updated>2021-06-18T00:00:00.000Z</updated>
@@ -29,7 +29,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vault Update]]></title>
+        <title type="html"><![CDATA[Mise à jour du Vault]]></title>
         <id>vault</id>
         <link href="https://docs.nanos.world/fr/blog/vault"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
@@ -39,9 +39,9 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Water Update]]></title>
-        <id>water</id>
-        <link href="https://docs.nanos.world/fr/blog/water"/>
+        <title type="html"><![CDATA[Mise à jour de l'eau]]></title>
+        <id>eau</id>
+        <link href="https://docs.nanos.world/fr/blog/eau"/>
         <updated>2021-01-11T00:00:00.000Z</updated>
         <author>
             <name>Gabriel T. Nardy</name>
@@ -49,9 +49,9 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vehicles Update]]></title>
-        <id>vehicles</id>
-        <link href="https://docs.nanos.world/fr/blog/vehicles"/>
+        <title type="html"><![CDATA[Mise à jour des véhicules]]></title>
+        <id>véhicules</id>
+        <link href="https://docs.nanos.world/fr/blog/véhicules"/>
         <updated>2020-12-21T00:00:00.000Z</updated>
         <author>
             <name>Gabriel T. Nardy</name>
