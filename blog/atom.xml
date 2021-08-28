@@ -12,36 +12,60 @@
         <id>new-docs</id>
         <link href="https://docs.nanos.world/blog/new-docs"/>
         <updated>2021-08-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In advance of our next update, we proudly present our new docs!]]></summary>
+        <summary type="html"><![CDATA[Some time ago, we released our brand new docs version written in Markdown! It was using GitBook services and hosting, the jump was big from the previous version written in Sphinx.]]></summary>
+        <author>
+            <name>Gabriel T. Nardy</name>
+            <uri>https://twitter.com/gtnardy</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sandbox Update]]></title>
         <id>sandbox</id>
         <link href="https://docs.nanos.world/blog/sandbox"/>
         <updated>2021-06-18T00:00:00.000Z</updated>
+        <author>
+            <name>Gabriel T. Nardy</name>
+            <uri>https://twitter.com/gtnardy</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vault Update]]></title>
         <id>vault</id>
         <link href="https://docs.nanos.world/blog/vault"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
+        <author>
+            <name>Gabriel T. Nardy</name>
+            <uri>https://twitter.com/gtnardy</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Water Update]]></title>
         <id>water</id>
         <link href="https://docs.nanos.world/blog/water"/>
         <updated>2021-01-11T00:00:00.000Z</updated>
+        <author>
+            <name>Gabriel T. Nardy</name>
+            <uri>https://twitter.com/gtnardy</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vehicles Update]]></title>
         <id>vehicles</id>
         <link href="https://docs.nanos.world/blog/vehicles"/>
         <updated>2020-12-21T00:00:00.000Z</updated>
+        <author>
+            <name>Gabriel T. Nardy</name>
+            <uri>https://twitter.com/gtnardy</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Halloween]]></title>
         <id>halloween</id>
         <link href="https://docs.nanos.world/blog/halloween"/>
         <updated>2020-10-24T00:00:00.000Z</updated>
+        <author>
+            <name>Gabriel T. Nardy</name>
+            <uri>https://twitter.com/gtnardy</uri>
+        </author>
     </entry>
 </feed>

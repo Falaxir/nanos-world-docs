@@ -12,7 +12,7 @@
             <link>https://docs.nanos.world/blog/new-docs</link>
             <guid>new-docs</guid>
             <pubDate>Fri, 27 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[In advance of our next update, we proudly present our new docs!]]></description>
+            <description><![CDATA[Some time ago, we released our brand new docs version written in Markdown! It was using GitBook services and hosting, the jump was big from the previous version written in Sphinx.]]></description>
         </item>
         <item>
             <title><![CDATA[Sandbox Update]]></title>
