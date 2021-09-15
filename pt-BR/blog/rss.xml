@@ -8,32 +8,32 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Nova Docs]]></title>
+            <title><![CDATA[Reworked Docs]]></title>
             <link>https://docs.nanos.world/pt-BR/blog/new-docs</link>
             <guid>new-docs</guid>
             <pubDate>Fri, 27 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Há algum tempo atrás, nós lançamos nossa nova versão da docs, escrita em Markdown! Estávamos usando os serviços do Gitbook para criar e hospedar, tivemos um grande salto da antiga versão, escrita com Sphinx.]]></description>
+            <description><![CDATA[Some time ago, we released our brand new docs version written in Markdown! It was using GitBook services and hosting, the jump was big from the previous version written in Sphinx.]]></description>
         </item>
         <item>
-            <title><![CDATA[Atualização do Sandbox]]></title>
+            <title><![CDATA[Sandbox Update]]></title>
             <link>https://docs.nanos.world/pt-BR/blog/sandbox</link>
             <guid>sandbox</guid>
             <pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Atualização da Vault]]></title>
+            <title><![CDATA[Vault Update]]></title>
             <link>https://docs.nanos.world/pt-BR/blog/vault</link>
             <guid>vault</guid>
             <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Atualização da Água]]></title>
+            <title><![CDATA[Water Update]]></title>
             <link>https://docs.nanos.world/pt-BR/blog/water</link>
             <guid>water</guid>
             <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Atualização dos Veículos]]></title>
+            <title><![CDATA[Vehicles Update]]></title>
             <link>https://docs.nanos.world/pt-BR/blog/vehicles</link>
             <guid>vehicles</guid>
             <pubDate>Mon, 21 Dec 2020 00:00:00 GMT</pubDate>
