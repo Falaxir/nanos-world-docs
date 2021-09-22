@@ -4,9 +4,16 @@
         <title>nanos world Blog</title>
         <link>https://docs.nanos.world/pt-BR/blog</link>
         <description>nanos world Blog</description>
-        <lastBuildDate>Fri, 27 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[nanos world is coming to Alpha!]]></title>
+            <link>https://docs.nanos.world/pt-BR/blog/alpha</link>
+            <guid>alpha</guid>
+            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[So long has passed since we started developing nanos world. In late 2017 we started digging about this ambitious idea, we dreamed of creating a seamless open world sandbox gaming experience without the limitations of reverse engineering games such as Just Cause 3 or Grand Theft Auto. So we decided to create a game from scratch, but only in mid 2019 we started working hard, it was really a very enthusiastic idea, but after a lot of blood, love and sweat we are getting there! 🥰]]></description>
+        </item>
         <item>
             <title><![CDATA[Nova Docs]]></title>
             <link>https://docs.nanos.world/pt-BR/blog/new-docs</link>
