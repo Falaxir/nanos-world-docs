@@ -8,11 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[nanos world is coming to Alpha!]]></title>
-            <link>https://docs.nanos.world/fr/blog/alpha</link>
-            <guid>alpha</guid>
+            <title><![CDATA[Nanos World arrive en Alpha!]]></title>
+            <link>https://docs.nanos.world/fr/blog/Alpha</link>
+            <guid>Alpha</guid>
             <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[So long has passed since we started developing nanos world. In late 2017 we started digging about this ambitious idea, we dreamed of creating a seamless open world sandbox gaming experience without the limitations of reverse engineering games such as Just Cause 3 or Grand Theft Auto. So we decided to create a game from scratch, but only in mid 2019 we started working hard, it was really a very enthusiastic idea, but after a lot of blood, love and sweat we are getting there! 🥰]]></description>
+            <description><![CDATA[Beaucoup de temps se sont passés depuis le début du développement de Nanos World. À la fin 2017, nous avons commencé à réfléchir sur une idée ambitieuse, nous avons rêvé de créer une expérience de jeu bac à sable à monde ouvert sans les limites de développement de jeux-vidéos comme Just Cause 3 ou Grand Theft Auto. Alors, nous avons décidé de créer un jeu de zéro, mais nous avons commencé à travailler dur dessus à partir de mi-2019, c'était une idée très enthousiaste, mais après beaucoup d'effort, d'amour, et de passions. Nous y sommes! 🥰]]></description>
         </item>
         <item>
             <title><![CDATA[Documentation retravaillée]]></title>

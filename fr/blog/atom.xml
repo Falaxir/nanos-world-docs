@@ -8,11 +8,11 @@
     <subtitle>nanos world Blog</subtitle>
     <icon>https://docs.nanos.world/fr/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[nanos world is coming to Alpha!]]></title>
-        <id>alpha</id>
-        <link href="https://docs.nanos.world/fr/blog/alpha"/>
+        <title type="html"><![CDATA[Nanos World arrive en Alpha!]]></title>
+        <id>Alpha</id>
+        <link href="https://docs.nanos.world/fr/blog/Alpha"/>
         <updated>2021-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[So long has passed since we started developing nanos world. In late 2017 we started digging about this ambitious idea, we dreamed of creating a seamless open world sandbox gaming experience without the limitations of reverse engineering games such as Just Cause 3 or Grand Theft Auto. So we decided to create a game from scratch, but only in mid 2019 we started working hard, it was really a very enthusiastic idea, but after a lot of blood, love and sweat we are getting there! 🥰]]></summary>
+        <summary type="html"><![CDATA[Beaucoup de temps se sont passés depuis le début du développement de Nanos World. À la fin 2017, nous avons commencé à réfléchir sur une idée ambitieuse, nous avons rêvé de créer une expérience de jeu bac à sable à monde ouvert sans les limites de développement de jeux-vidéos comme Just Cause 3 ou Grand Theft Auto. Alors, nous avons décidé de créer un jeu de zéro, mais nous avons commencé à travailler dur dessus à partir de mi-2019, c'était une idée très enthousiaste, mais après beaucoup d'effort, d'amour, et de passions. Nous y sommes! 🥰]]></summary>
         <author>
             <name>Gabriel T. Nardy</name>
             <uri>https://twitter.com/gtnardy</uri>
