@@ -159,6 +159,7 @@ export function GetAuthorityType(authority) {
 	return authority == "server" ? <AuthorityType.ServerOnly /> :
 	authority == "client" ? <AuthorityType.ClientOnly /> :
 	authority == "authority" ? <AuthorityType.AuthorityOnly /> :
+	authority == "network-authority" ? <AuthorityType.NetworkAuthority /> :
 	authority == "both" ? <AuthorityType.Both /> : "";
 };
 
@@ -177,6 +178,7 @@ export const FunctionDeclaration = ({ function_data, is_static, class_name }) =>
 				<>
 					<br/><br/><>Returns </>
 					{ GetReturnList(function_data.return) }
+					{" "}
 					{ GetReturnDescriptionList(function_data.return) }
 				</>
 			}
