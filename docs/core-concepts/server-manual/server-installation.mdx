@@ -13,7 +13,7 @@ Creating servers in nanos world is very simple and straightforward, just a few s
 
 ## Minimum System Requirements
 
-* **OS**: Windows or Linux
+* **OS**: [Windows](#windows) or [Linux*](#linux)
 * **Processor**: `2x 1.0 GHz` (faster cores is better than many cores)
 * **Memory**: `50 MB` (grows if having too many Players or spawned Entities)
 * **Storage**: `30 MB` (+ Assets & Packages size)
@@ -23,14 +23,34 @@ Creating servers in nanos world is very simple and straightforward, just a few s
 
 ## Windows
 
+:::info Requirements
+
+The Windows server needs the latest [**Microsoft Visual C++ Redistributable**](https://aka.ms/vs/17/release/vc_redist.x64.exe) to work.
+
+:::
+
 On Windows, you have **three** options for downloading nanos world server:
 
 1. Use the executable (*.exe*) already located at `nanos-world/Server/NanosWorldServer.exe` (if you downloaded the base game).
 2. Or download **nanos world™ Dedicated Server** tool from Steam Client.
-3. Use [SteamCMD](#steamcmd).
+3. Use [SteamCMD](#downloading-using-steamcmd).
 
 
 ## Linux
+
+:::info Recommended and Tested Distros
+
+Our Linux servers are current compiled in a **Ubuntu 22.04** machine (with [glibc](https://sourceware.org/glibc/wiki/Glibc%20Timeline) version **2.35**).
+
+The following Distros are currently granted to be supported out of the box:
+
+- `Ubuntu 22.04`
+- `Debian 12.0`
+
+You can see a community created page with instructions on how to install the server on other distros and versions [here](server-linux-arm).
+
+:::
+
 
 On Linux, the only way to download the server is through SteamCMD. If you are on Ubuntu/Debian, you can easily install it like that:
 
@@ -41,13 +61,8 @@ sudo apt update
 sudo apt install lib32gcc1 steamcmd
 ```
 
-Note: on Linux, you must start the server using the Shell Script `./NanosWorldServer.sh`, which will configure proper paths and needed dynamic libraries which need to be loaded!
+**Note**: on Linux, you must start the server using the Shell Script `./NanosWorldServer.sh`, which will configure proper paths and needed dynamic libraries which need to be loaded!
 
-:::tip
-
-You should probably look into `Linux & ARM Server installation` to see if your operating system is entirely supported!
-
-:::
 
 ## Downloading using SteamCMD
 
@@ -63,7 +78,7 @@ Steam>
 #### 2. You can optionally define an installation folder to install nanos world server:
 
 ```bash
-Steam> force_install_dir c:/nanos-world-server/
+Steam> force_install_dir C:/nanos-world-server/
 ```
 
 #### 3. The next step is to login on SteamCMD, you can login anonymously with:
@@ -107,14 +122,14 @@ An easier way to install or update nanos world server is using an one-liner comm
   <TabItem value="windows">
 
 ```shell
-steamcmd.exe +login anonymous +app_update 1936830 validate +quit
+steamcmd.exe +force_install_dir C:/nanos-world-server +login anonymous +app_update 1936830 validate +quit
 ```
 
   </TabItem>
   <TabItem value="linux">
 
 ```shell
-steamcmd +login anonymous +app_update 1936830 validate +quit
+steamcmd +force_install_dir ~/nanos-world-server +login anonymous +app_update 1936830 validate +quit
 ```
 
   </TabItem>
@@ -131,14 +146,14 @@ or on bleeding-edge:
   <TabItem value="windows">
 
 ```shell
-steamcmd.exe +login anonymous +app_update 1936830 -beta bleeding-edge validate +quit
+steamcmd.exe +force_install_dir C:/nanos-world-server +login anonymous +app_update 1936830 -beta bleeding-edge validate +quit
 ```
 
   </TabItem>
   <TabItem value="linux">
 
 ```shell
-steamcmd +login anonymous +app_update "1936830 -beta bleeding-edge" validate +quit
+steamcmd +force_install_dir ~/nanos-world-server +login anonymous +app_update "1936830 -beta bleeding-edge" validate +quit
 ```
 
   </TabItem>

@@ -158,11 +158,15 @@ module.exports = {
               label: 'bleeding-edge 🩸',
             },
             latest: {
-              label: 'latest - a1.66.x ⚖️',
+              label: 'latest - a1.70.x ⚖️',
             }
           },
         },
         blog: {
+		  feedOptions: {
+			type: 'json',
+			limit: 2
+		  },
           showReadingTime: true,
           editUrl: ({ locale, blogDirPath, blogPath }) => {
             if (locale !== 'en') {

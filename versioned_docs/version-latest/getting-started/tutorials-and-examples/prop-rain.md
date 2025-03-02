@@ -6,8 +6,6 @@ description: >-
 tags: [tutorial-example, scripting]
 ---
 
-import { VideoExternal } from '@site/src/components/_nanos';
-
 
 How to create a rain effect with Props (boxes) falling from sky once a Character enters a Trigger.
 
@@ -16,7 +14,7 @@ How to create a rain effect with Props (boxes) falling from sky once a Character
 <VideoExternal path="/docs/tutorials/prop-rain.mp4" />
 
 
-```lua title="Server/Index.lua"
+```lua title="Server/Index.lua" showLineNumbers
 -- Spawns a Trigger
 my_trigger = Trigger(Vector(200, 200, 0), 200)
 

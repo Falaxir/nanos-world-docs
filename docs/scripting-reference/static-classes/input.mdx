@@ -9,7 +9,7 @@ tags: [static-class, client]
 
 ## 🎒 Examples
 
-```lua title="Client/Index.lua"
+```lua title="Client/Index.lua" showLineNumbers
 -- Registers the binding_name 'SpawnMenu' with default key 'Q'
 -- This will add 'SpawnMenu' to user KeyBinding Settings automatically
 Input.Register("SpawnMenu", "Q")
@@ -25,7 +25,7 @@ Input.Bind("SpawnMenu", InputEvent.Released, function()
 end)
 ```
 
-```lua title="Client/Index.lua"
+```lua title="Client/Index.lua" showLineNumbers
 -- Subscribes for native Bindings
 Input.Bind("MoveForward", InputEvent.Pressed, function(delta)
 	-- Pressed MoveForward key (usually W)
@@ -184,3 +184,21 @@ List of all keys names returned in Key/Mouse events.
 | **`MouseScrollDown`** | Mouse wheel scrolling down |
 | **`MouseX`** | Mouse movement on the X axis |
 | **`MouseY`** | Mouse movement on the Y axis |
+
+
+### ▶️ AZERTY
+
+| **Key Name** | **Description** |
+| :--- | :--- |
+| **`Ampersand`**| '&' |
+| **`Asterix`**| '*' |
+| **`Caret`**| '^' |
+| **`Colon`**| ':' |
+| **`Dollar`**| '$' |
+| **`Exclamation`**| '!' |
+| **`LeftParantheses`**| '(' |
+| **`RightParantheses`**| ')' |
+| **`A_AccentGrave`**| à |
+| **`C_Cedille`**| ç |
+| **`E_AccentAigu`**| é |
+| **`E_AccentGrave`**| è |
