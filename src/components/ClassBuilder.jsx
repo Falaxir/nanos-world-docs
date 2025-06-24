@@ -11,7 +11,7 @@ import 'tippy.js/dist/tippy.css';
 import { AuthorityType, NativeType, BasicType, Classes, Structs, Enums, AssetPath, ReferenceLink } from '@site/src/components/_nanos';
 import { getActiveVersionPath, LinkActiveVersion } from '@site/src/components/Utils.jsx';
 import { FunctionToolTip, StaticFunctionToolTip, InlineFunctionToolTip, TablePropertiesToolTip, EventToolTip } from '@site/src/components/Tooltips';
-import { Details } from '@site/src/components/MarkdownUtils.mdx';
+import Details from '@theme/Details';
 
 import APIData from '@site/src/components/APIData';
 
@@ -106,6 +106,11 @@ export function GetParameterDescription(parameter_data) {
 		<span style={{ wordBreak: "break-word" }} dangerouslySetInnerHTML={{ __html: parameter_data.description ? parameter_data.description : "<span class='subtle-description'>No description provided</span>" }}></span>
 		<> </>
 		{ parameter_data.type == "function" && parameter_data.function_parameters ? <InlineFunctionNameDeclaration function_parameters={parameter_data.function_parameters} /> : "" }
+		<> </>
+		{ parameter_data.type == "table" ? <>
+			{ parameter_data.table_properties ? <InlineTablePropertiesDeclaration table_properties={parameter_data.table_properties} /> : null }
+			{ parameter_data.table_properties_custom ? <InlineTablePropertiesDeclaration table_properties_custom={parameter_data.table_properties_custom} /> : null }
+		</> : "" }
 	</>;
 }
 
@@ -220,6 +225,8 @@ export function GetAuthorityType(authority) {
 		return <AuthorityType.AuthorityOnly />;
 	if (authority == "network-authority")
 		return <AuthorityType.NetworkAuthority />;
+	if (authority == "both-net-authority-first")
+		return <AuthorityType.BothNetAuthorityFirst />;
 	if (authority == "both")
 		return <AuthorityType.Both />;
 	return "";
@@ -742,4 +749,30 @@ export const StaticPropertiesDeclaration = ({ type, name }) => {
 			</div>
 		}
 	</>);
+};
+
+// Define Class Method component
+export const MethodReference = ({ type, class_name, method, params, is_base = false, is_static = false, show_class_name = false }) => {
+	const class_data = GetClassData(type, class_name);
+	const function_data = (is_static ? class_data.static_functions : class_data.functions).find(({ name }) => name === method);
+	return (
+		<Tippy interactive={true} maxWidth={600} animation={"scale-subtle"} placement={"left"} content={
+			<FunctionDeclaration class_name={class_name} function_data={function_data} is_static={is_static} show_lean_declaration={true} />
+		}>
+			<Link to={`${getActiveVersionPath()}/scripting-reference/${is_static ? "static-classes" : "classes"}/${is_base ? "base-classes/" : ""}${class_name.toLowerCase()}#${is_static ? "static-function" : "function"}-${method.toLowerCase()}`} className={"hover-link"}><code>{show_class_name ? class_name : ""}{is_static ? "." : ":"}{method}({params})</code></Link>
+		</Tippy>
+	);
+};
+
+// Define Class Event component
+export const EventReference = ({ type, class_name, event, is_base = false, is_static = false, show_class_name = false }) => {
+	const class_data = GetClassData(type, class_name);
+	const event_data = class_data.events.find(({ name }) => name === event);
+	return (
+		<Tippy interactive={true} maxWidth={600} animation={"scale-subtle"} placement={"left"} content={
+			<EventDeclaration class_name={class_name} event_data={event_data} show_lean_declaration={true} />
+		}>
+			<Link to={`${getActiveVersionPath()}/scripting-reference/${is_static ? "static-classes" : "classes"}/${is_base ? "base-classes/" : ""}${class_name.toLowerCase()}#event-${event.toLowerCase()}`} className={"hover-link"}><code>{event}{show_class_name ? ` (${class_name})` : ""}</code></Link>
+		</Tippy>
+	);
 };
